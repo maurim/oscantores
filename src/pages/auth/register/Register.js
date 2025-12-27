@@ -37,6 +37,7 @@ const Register = () => {
         avatarColor,
         avatarImage
       });
+      console.log(result);
       setLoggedIn(true);
       setStoredUsername(username);
       setAlertType('alert-success');
